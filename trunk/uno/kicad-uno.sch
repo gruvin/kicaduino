@@ -555,16 +555,12 @@ Wire Wire Line
 	8350 1350 3750 1350
 Connection ~ 3750 2150
 Wire Wire Line
-	8350 1450 7950 1450
-Wire Wire Line
 	8350 1650 7750 1650
 Wire Wire Line
 	7750 1650 7750 2050
 Wire Wire Line
 	8350 1750 7750 1750
 Connection ~ 7750 1750
-Wire Wire Line
-	8350 1850 7950 1850
 Connection ~ 6950 3900
 Connection ~ 6850 3800
 Connection ~ 6750 3700
@@ -644,4 +640,12 @@ Wire Wire Line
 Wire Wire Line
 	7950 3600 7950 4350
 Connection ~ 6750 2900
+Text GLabel 7650 1450 0    39   Input ~ 0
++3V3
+Wire Wire Line
+	8350 1450 7650 1450
+Text GLabel 7650 1850 0    39   Input ~ 0
+VIN
+Wire Wire Line
+	8350 1850 7650 1850
 $EndSCHEMATC
