@@ -116,8 +116,6 @@ F 3 "~" H 9200 5850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9200 5700 9200 5400
-Wire Wire Line
 	9200 5400 9650 5400
 Connection ~ 9650 5400
 Wire Wire Line
@@ -581,4 +579,13 @@ F 3 "" H 7300 1300 60  0000 C CNN
 $EndComp
 Text Notes 8300 1600 0    39   ~ 0
 POWER INDICATOR
+Text Notes 8650 3750 0    39   ~ 0
+ICSP INDICATOR
+Wire Wire Line
+	9200 5650 9200 5400
+Wire Wire Line
+	4200 3150 4400 3150
+Connection ~ 4200 3150
+Text GLabel 4400 3150 2    39   Input ~ 0
+VIN
 $EndSCHEMATC
