@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Thu 25 Jul 2013 10:19:08 PM NZST
+PCBNEW-LibModule-V1  Fri 26 Jul 2013 12:08:25 AM NZST
 # encoding utf-8
 Units mm
 $INDEX
@@ -19,6 +19,7 @@ MLF-32_2mmVIA_SINK
 MLF-32_2x2_SINK
 POWER_POLARITY_REF
 QFN32_2x2-SINK
+RN_EXB-28V
 SC-70-6
 SM1206D
 SMA-GRUVIN
@@ -1661,6 +1662,83 @@ Of 0 0 0
 Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE QFN32_2x2-SINK
+$MODULE RN_EXB-28V
+Po 0 0 0 15 51F11536 00000000 ~~
+Li RN_EXB-28V
+Sc 0
+AR 
+Op 0 0 0
+T0 2.425 0 1 1 900 0.15 N V 21 N "RN_EXB28V"
+T1 0.55 0.15 1 1 0 0.15 N I 21 N "VAL**"
+DS -1.3 -0.85 1.3 -0.85 0.127 21
+DS 1.3 -0.85 1.3 0.85 0.127 21
+DS 1.3 0.85 -1.3 0.85 0.127 21
+DS -1.3 0.85 -1.3 -0.85 0.127 21
+$PAD
+Sh "2" R 0.525 0.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.8875 -0.45
+.LocalClearance 0.2
+$EndPAD
+$PAD
+Sh "8" R 0.525 0.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.8875 -0.45
+.LocalClearance 0.2
+$EndPAD
+$PAD
+Sh "4" R 0.25 0.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.25 -0.45
+.LocalClearance 0.2
+$EndPAD
+$PAD
+Sh "6" R 0.25 0.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.25 -0.45
+.LocalClearance 0.2
+$EndPAD
+$PAD
+Sh "1" R 0.525 0.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.8875 0.45
+.LocalClearance 0.2
+$EndPAD
+$PAD
+Sh "7" R 0.525 0.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.8875 0.45
+.LocalClearance 0.2
+$EndPAD
+$PAD
+Sh "3" R 0.25 0.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.25 0.45
+.LocalClearance 0.2
+$EndPAD
+$PAD
+Sh "5" R 0.25 0.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.25 0.45
+.LocalClearance 0.2
+$EndPAD
+$EndMODULE RN_EXB-28V
 $MODULE SC-70-6
 Po 0 0 0 15 51E7C400 00000000 ~~
 Li SC-70-6

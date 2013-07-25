@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = Thu 25 Jul 2013 10:25:53 PM NZST
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = Fri 26 Jul 2013 12:04:43 AM NZST
 
 BeginCmp
 TimeStamp = /51EFC99F/51EFCC8F;
@@ -197,101 +197,31 @@ IdModule  = SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /51EFC99F/51EFCCC0;
-Reference = RN1A1;
+TimeStamp = /51F10FC8;
+Reference = RN1;
 ValeurCmp = 10K;
-IdModule  = SM0603;
+IdModule  = RN_EXB-28V;
 EndCmp
 
 BeginCmp
-TimeStamp = /51EFC99F/51EFCCCD;
-Reference = RN1B1;
-ValeurCmp = 10K;
-IdModule  = SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /51EFD9F1/51EFF1A1;
-Reference = RN1C1;
-ValeurCmp = 10K;
-IdModule  = SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /51EFB493;
-Reference = RN1D1;
-ValeurCmp = 10K;
-IdModule  = SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /51EFC99F/51EFD8AC;
-Reference = RN2A1;
+TimeStamp = /51F11ACB;
+Reference = RN2;
 ValeurCmp = 1K;
-IdModule  = SM0603;
+IdModule  = RN_EXB-28V;
 EndCmp
 
 BeginCmp
-TimeStamp = /51EFD9F1/51F00E4C;
-Reference = RN2B1;
-ValeurCmp = 1K;
-IdModule  = SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /51EFD9F1/51F00E41;
-Reference = RN2C1;
-ValeurCmp = 1K;
-IdModule  = SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /51EFF96D;
-Reference = RN2D1;
-ValeurCmp = 1K;
-IdModule  = SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /51EFD9F1/51F0007E;
-Reference = RN3A1;
+TimeStamp = /51EFD9F1/51F11CEF;
+Reference = RN3;
 ValeurCmp = 22R;
-IdModule  = SM0603;
+IdModule  = RN_EXB-28V;
 EndCmp
 
 BeginCmp
-TimeStamp = /51EFD9F1/51F00084;
-Reference = RN3D1;
-ValeurCmp = 22R;
-IdModule  = SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /51EFD806;
-Reference = RN4A1;
+TimeStamp = /51F121CA;
+Reference = RN4;
 ValeurCmp = 1K;
-IdModule  = SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /51EFD800;
-Reference = RN4B1;
-ValeurCmp = 1K;
-IdModule  = SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /51EFC99F/51EFF2F8;
-Reference = RN4C1;
-ValeurCmp = 1K;
-IdModule  = SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /51EFC99F/51EFF2F2;
-Reference = RN4D1;
-ValeurCmp = 1K;
-IdModule  = SM0603;
+IdModule  = RN_EXB-28V;
 EndCmp
 
 BeginCmp
