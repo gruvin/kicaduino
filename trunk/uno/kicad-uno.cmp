@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = Fri 26 Jul 2013 12:04:43 AM NZST
+Cmp-Mod V01 Created by PcbNew date = Fri 26 Jul 2013 02:23:56 AM NZST
 
 BeginCmp
 TimeStamp = /51EFC99F/51EFCC8F;
@@ -100,7 +100,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = /51EFD9F1/51EFEEEB;
-Reference = ISCP1;
+Reference = ISCP2;
 ValeurCmp = 3X2 M;
 IdModule  = pin_array_3x2;
 EndCmp
@@ -235,7 +235,7 @@ BeginCmp
 TimeStamp = /51EFBE7A;
 Reference = S2;
 ValeurCmp = AD;
-IdModule  = PIN_ARRAY-6X1;
+IdModule  = pin_array_6x1;
 EndCmp
 
 BeginCmp
@@ -284,7 +284,7 @@ BeginCmp
 TimeStamp = /51EFC99F/51EFD4E9;
 Reference = U5;
 ValeurCmp = LM358;
-IdModule  = psop-8;
+IdModule  = SSOP8;
 EndCmp
 
 BeginCmp

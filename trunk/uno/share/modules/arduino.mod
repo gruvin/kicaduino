@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Fri 26 Jul 2013 12:08:25 AM NZST
+PCBNEW-LibModule-V1  Fri 26 Jul 2013 02:24:11 AM NZST
 # encoding utf-8
 Units mm
 $INDEX
@@ -33,6 +33,7 @@ TO-89
 USB-B_mini
 crystal_C3E
 pin_array_10x1
+pin_array_6x1
 pin_array_8x1
 $EndINDEX
 $MODULE BALUN_SMD_0805
@@ -1663,19 +1664,19 @@ Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE QFN32_2x2-SINK
 $MODULE RN_EXB-28V
-Po 0 0 0 15 51F11536 00000000 ~~
+Po 0 0 0 15 51F13254 00000000 ~~
 Li RN_EXB-28V
 Sc 0
 AR 
 Op 0 0 0
-T0 2.425 0 1 1 900 0.15 N V 21 N "RN_EXB28V"
-T1 0.55 0.15 1 1 0 0.15 N I 21 N "VAL**"
+T0 2.425 0 0.508 0.508 900 0.127 N V 21 N "RN_EXB28V"
+T1 0.55 0.15 0.508 0.508 0 0.127 N I 21 N "VAL**"
 DS -1.3 -0.85 1.3 -0.85 0.127 21
 DS 1.3 -0.85 1.3 0.85 0.127 21
 DS 1.3 0.85 -1.3 0.85 0.127 21
 DS -1.3 0.85 -1.3 -0.85 0.127 21
 $PAD
-Sh "2" R 0.525 0.5 0 0 0
+Sh "8" R 0.525 0.5 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -1683,7 +1684,7 @@ Po -0.8875 -0.45
 .LocalClearance 0.2
 $EndPAD
 $PAD
-Sh "8" R 0.525 0.5 0 0 0
+Sh "5" R 0.525 0.5 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -1691,7 +1692,7 @@ Po 0.8875 -0.45
 .LocalClearance 0.2
 $EndPAD
 $PAD
-Sh "4" R 0.25 0.5 0 0 0
+Sh "7" R 0.25 0.5 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -1715,7 +1716,7 @@ Po -0.8875 0.45
 .LocalClearance 0.2
 $EndPAD
 $PAD
-Sh "7" R 0.525 0.5 0 0 0
+Sh "4" R 0.525 0.5 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -1723,7 +1724,7 @@ Po 0.8875 0.45
 .LocalClearance 0.2
 $EndPAD
 $PAD
-Sh "3" R 0.25 0.5 0 0 0
+Sh "2" R 0.25 0.5 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -1731,7 +1732,7 @@ Po -0.25 0.45
 .LocalClearance 0.2
 $EndPAD
 $PAD
-Sh "5" R 0.25 0.5 0 0 0
+Sh "3" R 0.25 0.5 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -2852,6 +2853,69 @@ Of 0 0 0
 Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE pin_array_10x1
+$MODULE pin_array_6x1
+Po 0 0 0 15 51F13508 00000000 ~~
+Li pin_array_6x1
+Cd Connecteur 6 pins
+Kw CONN DEV
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "pin_array_6x1"
+T1 0 2.159 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS 7.747 1.016 7.747 -0.889 0.254 21
+DS -7.493 1.016 -7.493 -0.889 0.254 21
+DS -7.493 -0.995 7.747 -0.995 0.254 21
+DS 7.747 1.016 -7.493 1.016 0.254 21
+$PAD
+Sh "1" R 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 0
+$EndPAD
+$PAD
+Sh "2" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 0
+$EndPAD
+$PAD
+Sh "3" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 0
+$EndPAD
+$PAD
+Sh "4" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 0
+$EndPAD
+$PAD
+Sh "5" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 0
+$EndPAD
+$PAD
+Sh "6" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 0
+$EndPAD
+$SHAPE3D
+Na "pin_array/pins_array_6x1.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_array_6x1
 $MODULE pin_array_8x1
 Po 0 0 0 15 51E548E7 00000000 ~~
 Li pin_array_8x1
