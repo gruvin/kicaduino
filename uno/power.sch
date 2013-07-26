@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 3
 Title "KiCADuino UNO Rev3"
-Date "25 jul 2013"
+Date "26 jul 2013"
 Rev "0.1"
 Comp "Gruvin & Co"
 Comment1 ""
@@ -152,7 +152,7 @@ F 1 "FDN340P" V 6300 5850 40  0000 R CNN
 F 2 "SOT23" V 6350 5800 29  0001 C CNN
 F 3 "~" H 6050 5750 60  0000 C CNN
 	1    6050 5750
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	6750 3850 6350 3850
@@ -505,10 +505,6 @@ Wire Wire Line
 Wire Wire Line
 	4550 4600 4900 4600
 Wire Wire Line
-	6000 5550 6000 4500
-Wire Wire Line
-	6000 4500 5800 4500
-Wire Wire Line
 	7300 1300 7300 2050
 Connection ~ 7300 1800
 $Comp
@@ -588,4 +584,8 @@ F 3 "" H 7750 2050 60  0000 C CNN
 	4    7750 2050
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	5800 4500 6100 4500
+Wire Wire Line
+	6100 4500 6100 5550
 $EndSCHEMATC

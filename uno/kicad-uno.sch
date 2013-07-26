@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
 Title "KiCADuino UNO Rev3"
-Date "25 jul 2013"
+Date "26 jul 2013"
 Rev "0.1"
 Comp "Gruvin & Co"
 Comment1 ""
@@ -83,12 +83,12 @@ AREF
 $Comp
 L +5V #PWR01
 U 1 1 51EFB351
-P 4050 5550
-F 0 "#PWR01" H 4050 5640 20  0001 C CNN
-F 1 "+5V" H 4050 5640 30  0000 C CNN
-F 2 "" H 4050 5550 60  0000 C CNN
-F 3 "" H 4050 5550 60  0000 C CNN
-	1    4050 5550
+P 4050 5350
+F 0 "#PWR01" H 4050 5440 20  0001 C CNN
+F 1 "+5V" H 4050 5440 30  0000 C CNN
+F 2 "" H 4050 5350 60  0000 C CNN
+F 3 "" H 4050 5350 60  0000 C CNN
+	1    4050 5350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -216,7 +216,7 @@ F 3 "~" H 3350 2150 60  0000 C CNN
 $EndComp
 Text GLabel 2100 2400 0    59   Input ~ 0
 DTR
-Text GLabel 4450 5550 0    59   Input ~ 0
+Text GLabel 3250 5550 0    59   Input ~ 0
 AREF
 $Comp
 L C C5
@@ -405,11 +405,11 @@ Wire Wire Line
 	3850 4100 3750 4100
 Connection ~ 3750 4100
 Wire Wire Line
-	4750 5550 4450 5550
+	4750 5550 3250 5550
 Wire Wire Line
 	4750 5700 4050 5700
 Wire Wire Line
-	4050 5550 4050 5850
+	4050 5350 4050 5850
 Wire Wire Line
 	4050 5800 4750 5800
 Connection ~ 4050 5700
@@ -424,7 +424,7 @@ Connection ~ 4050 5800
 Wire Wire Line
 	4050 6250 4050 6300
 Wire Wire Line
-	4050 6300 4550 6300
+	3600 6300 4550 6300
 Connection ~ 4550 6300
 Wire Wire Line
 	3750 3500 4750 3500
@@ -497,7 +497,7 @@ Wire Wire Line
 	3000 2150 3050 2150
 Connection ~ 3000 2400
 Wire Wire Line
-	2500 2400 2100 2400
+	2100 2400 2500 2400
 Wire Wire Line
 	8350 1250 8250 1250
 Wire Wire Line
@@ -648,4 +648,21 @@ F 3 "" H 7600 6400 60  0000 C CNN
 	2    7600 6400
 	0    1    1    0   
 $EndComp
+$Comp
+L C C12
+U 1 1 51F20CB4
+P 3600 6050
+F 0 "C12" H 3600 6150 40  0000 L CNN
+F 1 "100n" H 3606 5965 40  0000 L CNN
+F 2 "SM0603_Capa" H 3638 5900 30  0001 C CNN
+F 3 "~" H 3600 6050 60  0000 C CNN
+	1    3600 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 6250 3600 6300
+Connection ~ 4050 6300
+Wire Wire Line
+	3600 5850 3600 5550
+Connection ~ 3600 5550
 $EndSCHEMATC
