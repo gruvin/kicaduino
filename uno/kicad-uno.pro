@@ -1,6 +1,6 @@
-update=Thu 25 Jul 2013 09:21:04 PM NZST
+update=Fri 26 Jul 2013 06:39:42 PM NZST
 version=1
-last_client=cvpcb
+last_client=kicad
 [eeschema]
 version=1
 LibDir=share/library
@@ -41,8 +41,6 @@ LibName28=opto
 LibName29=atmel
 LibName30=contrib
 LibName31=valves
-[general]
-version=1
 [pcbnew]
 version=1
 LastNetListRead=
@@ -86,3 +84,5 @@ version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
+[general]
+version=1
