@@ -1,4 +1,4 @@
-update=Fri 26 Jul 2013 06:39:42 PM NZST
+update=Sat 27 Jul 2013 10:03:36 PM NZST
 version=1
 last_client=kicad
 [eeschema]

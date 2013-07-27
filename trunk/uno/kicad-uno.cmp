@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = Fri 26 Jul 2013 05:17:31 PM NZST
+Cmp-Mod V01 Created by PcbNew date = Sat 27 Jul 2013 09:51:24 PM NZST
 
 BeginCmp
 TimeStamp = /51EFC99F/51EFCC8F;
@@ -64,6 +64,13 @@ IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
+TimeStamp = /51F20CB4;
+Reference = C12;
+ValeurCmp = 100n;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
 TimeStamp = /51EFC99F/51EFE641;
 Reference = D1;
 ValeurCmp = M7;
@@ -109,13 +116,6 @@ BeginCmp
 TimeStamp = /51EFBB1E;
 Reference = J1;
 ValeurCmp = RESET_EN;
-IdModule  = JSOLD;
-EndCmp
-
-BeginCmp
-TimeStamp = /51EFD9F1/51EFED7A;
-Reference = JP1;
-ValeurCmp = GROUND;
 IdModule  = JSOLD;
 EndCmp
 
@@ -179,7 +179,7 @@ BeginCmp
 TimeStamp = /51EFC99F/51EFE59A;
 Reference = PWR1;
 ValeurCmp = POWER_JACK;
-IdModule  = BARREL_JACK;
+IdModule  = JACK_NEB21R;
 EndCmp
 
 BeginCmp
@@ -207,28 +207,28 @@ BeginCmp
 TimeStamp = /51F10FC8;
 Reference = RN1;
 ValeurCmp = 10K;
-IdModule  = RN_EXB-28V;
+IdModule  = RN0402_EXB-2HV;
 EndCmp
 
 BeginCmp
 TimeStamp = /51F11ACB;
 Reference = RN2;
 ValeurCmp = 1K;
-IdModule  = RN_EXB-28V;
+IdModule  = RN0402_EXB-2HV;
 EndCmp
 
 BeginCmp
 TimeStamp = /51EFD9F1/51F11CEF;
 Reference = RN3;
 ValeurCmp = 22R;
-IdModule  = RN_EXB-28V;
+IdModule  = RN0402_EXB-2HV;
 EndCmp
 
 BeginCmp
 TimeStamp = /51F121CA;
 Reference = RN4;
 ValeurCmp = 1K;
-IdModule  = RN_EXB-28V;
+IdModule  = RN0402_EXB-2HV;
 EndCmp
 
 BeginCmp
