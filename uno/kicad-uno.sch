@@ -36,9 +36,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
-Title "KiCADuino UNO Rev3"
-Date "26 jul 2013"
-Rev "0.1"
+Title "KiCADuino (based on UNO Rev3)"
+Date "27 jul 2013"
+Rev "v1.0"
 Comp "Gruvin & Co"
 Comment1 ""
 Comment2 ""
@@ -57,10 +57,10 @@ F 3 "~" H 4100 4100 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L RESONATOR XTAL1
+L RESONATOR X1
 U 1 1 51EFA161
 P 4100 4400
-F 0 "XTAL1" H 4450 4250 39  0000 C CNN
+F 0 "X1" H 4450 4250 39  0000 C CNN
 F 1 "CSTCE16M0V53 16MHz" H 4150 4550 39  0000 C CNN
 F 2 "" H 4100 4400 60  0001 C CNN
 F 3 "~" H 4100 4400 60  0000 C CNN
@@ -68,10 +68,10 @@ F 3 "~" H 4100 4400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ATMEGA328P-PU ZU4
+L ATMEGA328P-PU ZU1
 U 1 1 51EF9E19
 P 5650 4800
-F 0 "ZU4" H 4950 6300 47  0000 L BNN
+F 0 "ZU1" H 4950 6300 47  0000 L BNN
 F 1 "ATMEGA328P-PU" H 5850 3200 47  0000 L BNN
 F 2 "DIP28" H 5650 4850 59  0001 C CNB
 F 3 "~" H 5650 4800 60  0000 C CNN
@@ -263,17 +263,16 @@ F 3 "" H 8700 5650 60  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L CONN_8 S1
+L CONN_6 S1
 U 1 1 51EFBF13
-P 8700 1500
-F 0 "S1" H 8900 1200 60  0000 C CNN
-F 1 "PWR" H 8700 1050 60  0000 C CNN
-F 2 "" H 8700 1500 60  0001 C CNN
-F 3 "" H 8700 1500 60  0000 C CNN
-	1    8700 1500
+P 8700 1600
+F 0 "S1" H 8900 1350 60  0000 C CNN
+F 1 "PWR" H 8700 1200 60  0000 C CNN
+F 2 "" H 8700 1600 60  0001 C CNN
+F 3 "" H 8700 1600 60  0000 C CNN
+	1    8700 1600
 	1    0    0    -1  
 $EndComp
-NoConn ~ 8350 1150
 $Comp
 L +5V #PWR08
 U 1 1 51EFBFBA
@@ -499,14 +498,9 @@ Connection ~ 3000 2400
 Wire Wire Line
 	2100 2400 2500 2400
 Wire Wire Line
-	8350 1250 8250 1250
-Wire Wire Line
-	8250 1250 8250 1550
-Wire Wire Line
 	7750 1550 8350 1550
 Wire Wire Line
 	7750 1550 7750 1000
-Connection ~ 8250 1550
 Wire Wire Line
 	8350 1350 3750 1350
 Connection ~ 3750 2150
@@ -665,4 +659,6 @@ Connection ~ 4050 6300
 Wire Wire Line
 	3600 5850 3600 5550
 Connection ~ 3600 5550
+Text Notes 8900 1500 0    43   ~ 0
+This socket was an 8-way on the \noriginal Rev3 schematic. But it\nBecame 6-way on all future versions.
 $EndSCHEMATC

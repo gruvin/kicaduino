@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = Sat 27 Jul 2013 09:51:24 PM NZST
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = Sun 28 Jul 2013 11:36:06 AM NZST
 
 BeginCmp
 TimeStamp = /51EFC99F/51EFCC8F;
@@ -120,6 +120,13 @@ IdModule  = JSOLD;
 EndCmp
 
 BeginCmp
+TimeStamp = /51EFD9F1/51F44BD9;
+Reference = JP1;
+ValeurCmp = Solder Bridge;
+IdModule  = JSOLD;
+EndCmp
+
+BeginCmp
 TimeStamp = /51EFD9F1/51EFF43B;
 Reference = JP2;
 ValeurCmp = 2X2 M;
@@ -235,7 +242,7 @@ BeginCmp
 TimeStamp = /51EFBF13;
 Reference = S1;
 ValeurCmp = PWR;
-IdModule  = pin_array_8x1;
+IdModule  = pin_array_6x1;
 EndCmp
 
 BeginCmp
@@ -284,7 +291,7 @@ BeginCmp
 TimeStamp = /51EFD9F1/51EFEB19;
 Reference = U3;
 ValeurCmp = ATMEGA16U2-MU(R);
-IdModule  = QFN32;
+IdModule  = QFN32_2x2-SINK;
 EndCmp
 
 BeginCmp
@@ -296,9 +303,16 @@ EndCmp
 
 BeginCmp
 TimeStamp = /51EFD9F1/51F0FF25;
-Reference = X2;
+Reference = USB1;
 ValeurCmp = USB-MINI-AB;
 IdModule  = USB-B_mini;
+EndCmp
+
+BeginCmp
+TimeStamp = /51EFA161;
+Reference = X1;
+ValeurCmp = CSTCE16M0V53 16MHz;
+IdModule  = CSTCE_V13C;
 EndCmp
 
 BeginCmp
@@ -306,13 +320,6 @@ TimeStamp = /51EFD9F1/51EFEB28;
 Reference = XT1;
 ValeurCmp = 16MHz;
 IdModule  = HC-49V;
-EndCmp
-
-BeginCmp
-TimeStamp = /51EFA161;
-Reference = XTAL1;
-ValeurCmp = CSTCE16M0V53 16MHz;
-IdModule  = CSTCE_V13C;
 EndCmp
 
 BeginCmp
@@ -331,7 +338,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = /51EF9E19;
-Reference = ZU4;
+Reference = ZU1;
 ValeurCmp = ATMEGA328P-PU;
 IdModule  = DIP-28__300;
 EndCmp
