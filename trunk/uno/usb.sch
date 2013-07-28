@@ -36,9 +36,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 3
-Title "KiCADuino UNO Rev3"
-Date "26 jul 2013"
-Rev "0.1"
+Title "KiCADuino (based on UNO Rev3)"
+Date "27 jul 2013"
+Rev "v1.0"
 Comp "Gruvin & Co"
 Comment1 ""
 Comment2 ""
@@ -522,10 +522,10 @@ Wire Wire Line
 	3850 3500 4000 3500
 Connection ~ 4000 3900
 $Comp
-L USB-MINI-AB X2
+L USB-MINI-AB USB1
 U 1 1 51F0FF25
 P 1800 4400
-F 0 "X2" H 1900 4750 60  0000 C CNN
+F 0 "USB1" H 1900 4750 60  0000 C CNN
 F 1 "USB-MINI-AB" H 1400 4750 60  0000 C CNN
 F 2 "~" H 1800 4400 60  0000 C CNN
 F 3 "~" H 1800 4400 60  0000 C CNN
@@ -652,11 +652,40 @@ Connection ~ 2150 5800
 Wire Wire Line
 	5700 5200 5450 5200
 Text Notes 1250 5950 0    43   ~ 0
-NOTE: L1 (ferrite) has been changed to\nreflect how it should be, compared to the\noriginal UNO Rev3 schematic. Its position\non the PCB is also changed, accordingly.\nJumper "GROUND" has been removed.
+NOTE: L1 (ferrite) has been changed to\nreflect how it should be, compared to the\noriginal UNO Rev3 schematic. L1 must be\nrated to minmum 500mA.
 Wire Wire Line
 	5700 5000 3300 5000
 Wire Wire Line
-	3300 4600 3300 5000
+	3300 5000 3300 4600
 Wire Wire Line
-	2050 4600 3300 4600
+	3300 4600 2050 4600
+$Comp
+L JUMPER JP1
+U 1 1 51F44BD9
+P 3950 5400
+F 0 "JP1" H 3950 5550 60  0000 C CNN
+F 1 "Solder Bridge" H 3950 5320 40  0000 C CNN
+F 2 "~" H 3950 5400 60  0000 C CNN
+F 3 "~" H 3950 5400 60  0000 C CNN
+	1    3950 5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR020
+U 1 1 51F44BE6
+P 3950 5850
+F 0 "#PWR020" H 3950 5850 30  0001 C CNN
+F 1 "GND" H 3950 5780 30  0001 C CNN
+F 2 "" H 3950 5850 60  0000 C CNN
+F 3 "" H 3950 5850 60  0000 C CNN
+	1    3950 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 5850 3950 5700
+Wire Wire Line
+	3950 5100 3950 5000
+Connection ~ 3950 5000
+Text Notes 3500 6050 0    43   ~ 0
+JP1 exists only as an emergency \nground option for UGND, in case \nL1 becomes fused.
 $EndSCHEMATC
