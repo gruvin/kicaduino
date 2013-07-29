@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = Sun 28 Jul 2013 01:46:31 PM NZST
+Cmp-Mod V01 Created by PcbNew date = Mon 29 Jul 2013 12:13:53 PM NZST
 
 BeginCmp
 TimeStamp = /51EFC99F/51EFCC8F;
@@ -214,28 +214,28 @@ BeginCmp
 TimeStamp = /51F10FC8;
 Reference = RN1;
 ValeurCmp = 10K;
-IdModule  = RN0402_EXB-2HV;
+IdModule  = RN_0603x4;
 EndCmp
 
 BeginCmp
 TimeStamp = /51F11ACB;
 Reference = RN2;
 ValeurCmp = 1K;
-IdModule  = RN0402_EXB-2HV;
+IdModule  = RN_0603x4;
 EndCmp
 
 BeginCmp
 TimeStamp = /51EFD9F1/51F11CEF;
 Reference = RN3;
 ValeurCmp = 22R;
-IdModule  = RN0402_EXB-2HV;
+IdModule  = RN_0603x4;
 EndCmp
 
 BeginCmp
 TimeStamp = /51F121CA;
 Reference = RN4;
 ValeurCmp = 1K;
-IdModule  = RN0402_EXB-2HV;
+IdModule  = RN_0603x4;
 EndCmp
 
 BeginCmp

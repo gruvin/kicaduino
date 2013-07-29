@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Sun 28 Jul 2013 01:45:35 PM NZST
+PCBNEW-LibModule-V1  Mon 29 Jul 2013 12:17:04 PM NZST
 # encoding utf-8
 Units mm
 $INDEX
@@ -21,8 +21,7 @@ MLF-32_2mmVIA_SINK
 MLF-32_2x2_SINK
 POWER_POLARITY_REF
 QFN32_2x2-SINK
-RN0402_EXB-2HV
-RN_EXB-28V
+RN_0603x4
 SC-70-6
 SM1206D
 SMA-GRUVIN
@@ -1704,160 +1703,89 @@ Of 0 0 0
 Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE QFN32_2x2-SINK
-$MODULE RN0402_EXB-2HV
-Po 0 0 0 15 51F38FB9 00000000 F~
-Li RN0402_EXB-2HV
-Sc 0
-AR /51F10FC8
-Op 0 0 0
-T0 0.127 1.524 0.508 0.508 0 0.127 N V 21 N "RN1"
-T1 0.127 0.127 0.508 0.508 0 0.127 N I 21 N "10K"
-DS -1.2446 -1.1684 1.2192 -1.1684 0.127 21
-DS 1.2192 -1.1684 1.2192 1.1684 0.127 21
-DS 1.2192 1.1684 -1.2446 1.1684 0.127 21
-DS -1.2446 1.1684 -1.2446 -1.1684 0.127 21
-$PAD
-Sh "8" R 0.425 0.5 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 6 "VIN"
-Po -0.8475 -0.75
-.LocalClearance 0.2
-$EndPAD
-$PAD
-Sh "5" R 0.425 0.5 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 1 "+5V"
-Po 0.8475 -0.75
-.LocalClearance 0.2
-$EndPAD
-$PAD
-Sh "7" R 0.25 0.5 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 5 "GND"
-Po -0.25 -0.75
-.LocalClearance 0.2
-$EndPAD
-$PAD
-Sh "6" R 0.25 0.5 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 4 "/USB/RESET2"
-Po 0.25 -0.75
-.LocalClearance 0.2
-$EndPAD
-$PAD
-Sh "1" R 0.425 0.5 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 2 "/POWER/CMP"
-Po -0.8475 0.75
-.LocalClearance 0.2
-$EndPAD
-$PAD
-Sh "4" R 0.425 0.5 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 3 "/RESET"
-Po 0.8475 0.75
-.LocalClearance 0.2
-$EndPAD
-$PAD
-Sh "2" R 0.25 0.5 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 2 "/POWER/CMP"
-Po -0.25 0.75
-.LocalClearance 0.2
-$EndPAD
-$PAD
-Sh "3" R 0.25 0.5 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 1 "+5V"
-Po 0.25 0.75
-.LocalClearance 0.2
-$EndPAD
-$EndMODULE RN0402_EXB-2HV
-$MODULE RN_EXB-28V
-Po 0 0 0 15 51F13254 00000000 ~~
-Li RN_EXB-28V
+$MODULE RN_0603x4
+Po 0 0 0 15 51F5A984 00000000 ~~
+Li RN_0603x4
 Sc 0
 AR 
 Op 0 0 0
-T0 2.425 0 0.508 0.508 900 0.127 N V 21 N "RN_EXB28V"
-T1 0.55 0.15 0.508 0.508 0 0.127 N I 21 N "VAL**"
-DS -1.3 -0.85 1.3 -0.85 0.127 21
-DS 1.3 -0.85 1.3 0.85 0.127 21
-DS 1.3 0.85 -1.3 0.85 0.127 21
-DS -1.3 0.85 -1.3 -0.85 0.127 21
+T0 0 2.025 0.508 0.508 0 0.127 N V 21 N "RN?"
+T1 0.025 0 0.508 0.508 0 0.127 N I 21 N "VAL**"
+DS -1.6 -1.4 1.6 -1.4 0.127 21
+DS 1.6 -1.4 1.6 1.4 0.127 21
+DS 1.6 1.4 -1.6 1.4 0.127 21
+DS -1.6 1.4 -1.6 -1.4 0.127 21
 $PAD
-Sh "8" R 0.525 0.5 0 0 0
+Sh "8" R 0.45 0.8 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -0.8875 -0.45
+Po -1.2 -0.8
 .LocalClearance 0.2
 $EndPAD
 $PAD
-Sh "5" R 0.525 0.5 0 0 0
+Sh "5" R 0.45 0.8 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 0.8875 -0.45
+Po 1.2 -0.8
 .LocalClearance 0.2
 $EndPAD
 $PAD
-Sh "7" R 0.25 0.5 0 0 0
+Sh "7" R 0.45 0.8 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -0.25 -0.45
+Po -0.4 -0.8
 .LocalClearance 0.2
 $EndPAD
 $PAD
-Sh "6" R 0.25 0.5 0 0 0
+Sh "6" R 0.45 0.8 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 0.25 -0.45
+Po 0.4 -0.8
 .LocalClearance 0.2
 $EndPAD
 $PAD
-Sh "1" R 0.525 0.5 0 0 0
+Sh "1" R 0.45 0.8 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -0.8875 0.45
+Po -1.2 0.8
 .LocalClearance 0.2
 $EndPAD
 $PAD
-Sh "4" R 0.525 0.5 0 0 0
+Sh "4" R 0.45 0.8 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 0.8875 0.45
+Po 1.2 0.8
 .LocalClearance 0.2
 $EndPAD
 $PAD
-Sh "2" R 0.25 0.5 0 0 0
+Sh "2" R 0.45 0.8 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -0.25 0.45
+Po -0.4 0.8
 .LocalClearance 0.2
 $EndPAD
 $PAD
-Sh "3" R 0.25 0.5 0 0 0
+Sh "3" R 0.45 0.8 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 0.25 0.45
+Po 0.4 0.8
 .LocalClearance 0.2
 $EndPAD
-$EndMODULE RN_EXB-28V
+$SHAPE3D
+Na "packages3d/rna_0603x4.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE RN_0603x4
 $MODULE SC-70-6
 Po 0 0 0 15 51E7C400 00000000 ~~
 Li SC-70-6
